@@ -1,0 +1,83 @@
+img{
+	width: 200px;
+	height: 150px;
+}
+
+.banner{
+	background-image: url("../img/cubes.png");
+	width: 100%; 
+	margin: 0px; 
+	margin-top: 168px;
+}
+
+hr{
+	width: 200px;
+	align:center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about{
+	background-image: url("../img/dance_7.jpg");
+	background-position: 10px;
+	background-repeat: no-repeat;
+	min-height:400px;
+	padding-top: 7%; 
+}
+
+.cuadro{
+	background:rgba(31, 31, 31, 0.6);
+	padding: 25px 20px 35px 20px;
+	width: 500px;
+	margin:auto;
+}
+
+.pilares{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 900px;
+}
+
+.pilares div{
+	padding: 40px;
+} 
+
+.clases{
+	text-align: 
+	center;padding: 30px; 
+	margin-bottom: 50px;
+}
+
+.clases ul{
+	display: inline-block;
+ }
+
+.clases li, h5{
+	list-style-type: none;
+	text-align: left;
+}
+
+.clases ul{
+	height: 180px;
+	width: 200px;
+	margin:30px;
+}
+
+
+.mensaje{
+	text-align: center;
+	padding: 100px;
+}
+
+.lista-sin-estilo{
+	list-style-type: none;
+}
+
+.letra-azul{
+	color:#1F2750;
+}
+
+.letra-gris-claro{
+	color:#C2C6C3;
+}
+

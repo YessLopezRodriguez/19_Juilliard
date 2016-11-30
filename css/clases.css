@@ -1,0 +1,106 @@
+img{
+	width: 300px;
+	height: 400px;
+}
+
+ h4, p{
+ 	width: 260px;
+ 	height: 30px;
+ 	color: white;
+ }
+
+.oferta{
+	background-color: #E9EAE9;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.titulo{
+	margin-bottom: 30px;
+}
+
+#areas{
+	display: inline-block;
+	text-decoration-style: none;
+	*/margin-right: 20px;
+	margin-left: 20px;
+	height: 400px;
+}
+
+.detalle{
+	width: 260px;
+	height: 160px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: rgba(31, 31, 31, 0.6);
+	position: relative;bottom: 260px;
+}
+
+.contacto{
+	background-image: url('../img/shoes_1.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: right; 
+	height: 500px;
+}
+
+.contacto > div{
+	max-width: 500px; 
+	margin-left: 170px; 
+	margin-top: 60px;
+}
+
+.contacto h1{
+	margin-top: 40px; 
+	margin-bottom: 40px;
+}
+
+.contacto input{
+	border:none; 
+	display: inline-block; 
+	width: 450px;
+}
+
+.contacto textarea{
+	border:none; 
+	display: inline-block; 
+	vertical-align: top; 
+	width: 450px; 
+	height: 100px; 
+	background-color: transparent;
+}
+
+.contacto input:focus, .contacto textarea:focus{
+	outline: none;
+}
+
+.contacto div div{
+	border:1px solid #a6a6a6; 
+	padding: 5px; 
+	margin-top: 20px;
+}
+
+.contacto div div span{
+	color:  #4d4d4d; 
+	margin-left: 8px; 
+	margin-right: 8px; 
+	vertical-align: top;
+}
+
+.contacto button{
+	width: 100%; 
+	margin-top: 20px;
+}
+
+.pie {
+	background-color: #1A2952; 
+	color:#fff; width: 100%;
+	margin: 0px;
+}
+
+.pie p{
+	padding-top: 15px; 
+	padding-left: 20px; 
+	padding-bottom: 10px; 
+	font-size: 11px; 
+}

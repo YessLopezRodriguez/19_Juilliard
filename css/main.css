@@ -1,0 +1,139 @@
+a{
+	text-decoration: none;
+}
+
+.about{
+	background-image: url(../img/dance_1.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding-top: 7%;
+}
+
+.portada{
+	margin:0px; 
+}
+
+.portada-img{
+	height: 400px; 
+	overflow: hidden; 
+	position: relative; 
+	background-color: rgba(6, 22, 47,0.7); 
+}
+
+.portada-img img{ 
+	top:50%; 
+	left: 50%; 
+	transform: 
+	translateX(-50%) translateY(-50%); 
+	position: absolute; 
+	z-index: -1;
+}
+
+.portada-img div {
+	max-width: 400px; 
+	float:left; 
+	margin-left: 100px; 
+	margin-top: 70px;
+}
+
+.portada-img div h1{
+	font-style:'DolceVita'; 
+	font-size: 65px;  
+}
+
+.portada-img div p{
+	width: 230px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	font-size: 15px;
+}
+
+.portada-img button{
+	background-color: #030E1E;
+}
+
+.portada div div p:last-child {
+	max-width: 580px; 
+	margin:auto; 
+	font-size: 20px;
+}
+
+.portada>div:last-child{
+	background-image: url('../img/textura_2.jpg');
+	background-repeat: repeat; 
+	padding-top: 60px; 
+	padding-bottom: 80px;
+}
+
+.portada div img {
+	max-width: 100px; 
+	margin-top: -20px; 
+}
+
+.portada button:last-child{
+	margin:auto; 
+	display: block; 
+	width: 200px;
+}
+
+.cuadro-instructores{
+	height: 350px; 
+	overflow: hidden; 
+	margin: 0px; 
+}
+
+.cuadro-instructores button{
+	margin-left: -38%; 
+	margin-top: 46%; 
+	width: 400px; 
+	padding: 20px;
+}
+
+.cuadro-instructores div { 
+	background-size: cover; 
+	height: 500px; 
+}
+
+.cuadro-instructores div:first-child{
+	background-image: url('../img/instructor_4.jpg'); 
+	float: left;
+} 
+.cuadro-instructores div:last-child{
+	background-image: url('../img/profesor_9.jpg');
+	float: right;
+}
+
+.frase h1{
+	padding:120px 100px 90px 100px; 
+	font-size: 45px; background-image: url('../img/textura_2.jpg');
+	background-repeat: repeat; 
+	color:#4d4d4d;
+}
+
+
+.ubicacion{
+	margin:0px; 
+	background-color: #1A2952; 
+	padding-top: 80px; 
+	padding-left: 80px; 
+	padding-bottom: 60px;
+	margin-bottom: 30px;
+}
+
+.ubicacion div{
+	width: 400px; 
+	color:#fff; 
+	margin-right:100px; 
+	display: inline-block; 
+	vertical-align: top;
+}
+
+.ubicacion h1{
+	margin-top: 30px;
+}
+
+.ubicacion p:last-child{
+	padding-top: 15px;
+}
+
+

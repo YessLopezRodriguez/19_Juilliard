@@ -1,0 +1,141 @@
+button.boton:hover{
+	background-color: #C2C6C3; 
+	color:#1A2952;
+}
+
+button.boton:active{
+	position:relative; 
+	top:3px;
+}
+
+.lista-sin-estilo{
+	list-style-type: none;
+}
+
+.letra-azul{
+	color:#1F2750;
+}
+
+.letra-gris-claro{
+	color:#C2C6C3;
+}
+
+.head {
+	margin:0px; 
+	background-color: #fff; 
+	position: fixed; 
+	top:0px; 
+	z-index: 2000;
+}
+
+.head h1 {
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+
+.head nav ul li {
+	display: inline-block; 
+	padding: 20px; 
+	margin-right: 30px; 
+	margin-left: 30px;
+}
+
+.head nav ul{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+.head+section{
+	margin-top: 168px;
+}
+
+.head+div{
+	margin-top: 168px;
+}
+
+.head a{
+	text-decoration: none;
+	color:#C2C6C3;
+}
+
+.head a:hover{
+	font-weight: bolder; 
+	color:#666666;
+}
+
+.boton{
+	padding: 10px 35px 10px 35px;
+	background-color: #1A2952;
+	color:#C2C6C3;
+    border:none;
+    border-radius: 3px; 
+}
+
+
+.contacto{
+	background-image: url('../img/shoes_1.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: right; 
+	height: 500px;
+}
+
+.contacto > div{
+	max-width: 500px; 
+	margin-left: 170px; 
+	margin-top: 60px;
+}
+
+.contacto h1{
+	margin-top: 40px; 
+	margin-bottom: 40px;
+}
+
+.contacto input{
+	border:none; 
+	display: inline-block; 
+	width: 450px;
+}
+
+.contacto textarea{
+	border:none; 
+	display: inline-block; 
+	vertical-align: top; 
+	width: 450px; 
+	height: 100px; 
+	background-color: transparent;
+}
+
+.contacto input:focus, .contacto textarea:focus{
+	outline: none;
+}
+
+.contacto div div{
+	border:1px solid #a6a6a6; 
+	padding: 5px; 
+	margin-top: 20px;
+}
+
+.contacto div div span{
+	color:  #4d4d4d; 
+	margin-left: 8px; 
+	margin-right: 8px; 
+	vertical-align: top;
+}
+
+.contacto button{
+	width: 100%; 
+	margin-top: 20px;
+}
+
+
+.pie {
+	background-color: #1A2952; 
+	color:#fff; width: 100%; 
+	margin: 0px;
+}
+.pie p{
+	padding-top: 15px; 
+	padding-left: 20px; 
+	padding-bottom: 10px; 
+	font-size: 11px; 
+}
